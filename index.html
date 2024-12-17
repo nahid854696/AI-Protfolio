@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="bg-white shadow-md py-4">
+        <!-- navber start -->
+        <nav class="container mx-auto flex justify-between items-center">
+            <a class="ml-14 text-2xl font-bold text-sky-500" href="#">Nahid</a>
+            <div class="hidden md:flex items-center space-x-10">
+                <ul class="hidden md:flex items-center space-x-8">
+                    <li class="nav-item text-gray-700 font-semibold hover:text-orange-500 transition duration-300"><a href="#home">Home</a></li>
+                    <li class="nav-item text-gray-700 font-semibold hover:text-orange-500 transition duration-300"><a href="#about">About</a></li>
+                    <li class="nav-item text-gray-700 font-semibold hover:text-orange-500 transition duration-300"><a href="#portfolio">Portfolio</a></li>
+                   <a href="services"><li class="nav-item text-gray-700 font-semibold hover:text-orange-500 transition duration-300"><a href="#service">Service</a></li></a>
+                    <li class="nav-item text-gray-700 font-semibold hover:text-orange-500 transition duration-300"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navber End -->
+    </header>
+    <main>
+        <!-- First hero section -->
+        <section class=" mx-auto md:flex justify-between mb-12">
+            <div>
+                <h1 class="text-5xl font-bold ml-[20%] sm:ml-[35%] md:ml-32 mt-20 md:mt-40 ">
+                    Nahid Hasan
+                </h1>
+                <p class="text-2xl font-semibold ml-[20%] sm:ml-[35%] md:ml-32 mt-3 text-orange-500" >I'm a Forntend Developer</p>
+                <p class="text-l w-[80%] text-center  md:w-80 font-semibold text-gray-400 mt-1 ml-[10%] md:ml-32">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sint, obcaecati voluptas aspernatur consequatur qui
+                      placeat ipsa ipsam doloribus perferendis, tempore quo
+                       voluptatum sed, soluta natus. Ratione earum quidem 
+                       dolorum sed?</p>
+
+                       <div>
+                        <div class="flex justify-center space-x-4 mt-6">
+                            <a href="https://linkedin.com" target="_blank" class="text-sky-500 text-2xl"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/nahid854696" target="_blank" class="text-gray-800 text-4xl"><i class='bx bxl-github'></i></a>
+                            <a href="https://twitter.com" target="_blank" class="text-blue-400 text-2xl"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.facebook.com/rihan.rizby.5/about" target="_blank" class="text-blue-400 text-4xl" ><i class='bx bxl-facebook-square'></i></a>
+                        </div>
+                        
+                       </div>
+    
+                    <button class="  bg-teal-500 md:bg-teal-500 ml-[35%] sm:ml-[40%] md:ml-32 rounded-full mt-6 h-8 w-40 font-semibold hover:bg-gray-200 transition duration-300 " >Download CV</button>
+    
+            </div>
+                <div  class="">
+                    <img class=" h-100 w-80 m-auto md:mr-36 rounded-full mt-32  shadow-gray-300" src="image/1727350386691.jpg" alt="">
+                </div>
+    
+
+        </section>
+         <!-- First hero section end -->
+
+
+         
+         <!-- First hero image section -->
+
+
+         <!-- contact section -->
+          <section id="contact" class="bg-gray-100 py-20">
+                 <div class="container mx-auto text-center">
+                     <h2 class="text-3xl font-bold text-gray-700">Contact Me</h2>
+                     <p class="text-gray-500 mt-2">Feel free to reach out to me for any inquiries or collaboration.</p>
+                     <div class="mt-8">
+                         <form action="#" method="POST" class="w-full max-w-lg mx-auto">
+                             <div class="flex flex-wrap justify-between gap-4">
+                                 <div class="w-full md:w-1/2">
+                                     <input type="text" name="name" placeholder="Your Name" class="w-[380px] p-3 border border-gray-300 rounded-md" required>
+                                 </div>
+                                 <div class="w-full md:w-1/2">
+                                     <input type="email" name="email" placeholder="Your Email" class="w-[380px] p-3 border border-gray-300 rounded-md" required>
+                                 </div>
+                             </div>
+                             <div class="mt-4">
+                                 <textarea name="message" placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded-md" rows="5" required></textarea>
+                             </div>
+                             <button type="submit" class="mt-4 bg-teal-500 text-white py-2 px-6 rounded-md hover:bg-teal-600">Send Message</button>
+                         </form>
+                     </div>
+                 </div>
+            </section>
+
+
+
+
+
+
+         <!-- Service section -->
+         <section>
+            <section id="services" class="bg-gray-100 py-20">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-bold text-gray-700">My Services</h2>
+                    <p class="text-gray-500 mt-2">Here are the services I provide to my clients.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                        <div class="p-8 bg-white shadow-md rounded-md">
+                            <i class='bx bx-code text-4xl text-sky-500'></i>
+                            <h3 class="text-xl font-bold mt-4">Web Development</h3>
+                            <p class="text-gray-500 mt-2">I create responsive and user-friendly websites.</p>
+                        </div>
+                        <div class="p-8 bg-white shadow-md rounded-md">
+                            <i class='bx bx-paint text-4xl text-orange-500'></i>
+                            <h3 class="text-xl font-bold mt-4">UI/UX Design</h3>
+                            <p class="text-gray-500 mt-2">I design intuitive and visually appealing interfaces.</p>
+                        </div>
+                        <div class="p-8 bg-white shadow-md rounded-md">
+                            <i class='bx bx-support text-4xl text-teal-500'></i>
+                            <h3 class="text-xl font-bold mt-4">Support & Maintenance</h3>
+                            <p class="text-gray-500 mt-2">I ensure your site runs smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+         </section>
+
+         <!-- Testimonial section -->
+
+         <section id="testimonials" class="bg-gray-200 py-10">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-700">What My Clients Say</h2>
+                <p class="text-gray-500 mt-4 mb-20">Here's some feedback from my previous clients.</p>
+                <div class="flex flex-wrap justify-center gap-8 mt-8">
+                    <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                        <p class="text-lg text-gray-600">"Nahid did a fantastic job on our website. His work is top-notch, and he delivered on time. Highly recommend!"</p>
+                        <p class="font-bold text-gray-700 mt-4">Bill gates</p>
+                        <p class="text-gray-500">Founder, Microsoft</p>
+                    </div>
+                    <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                        <p class="text-lg text-gray-600">"Amazing work! The website is exactly what we wanted, and the process was seamless from start to finish."</p>
+                        <p class="font-bold text-gray-700 mt-4">Jane Smith</p>
+                        <p class="text-gray-500">Founder, Tech Solutions</p>
+                    </div>
+                    <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                        <p class="text-lg text-gray-600">"Great experience working with Nahid! He understood our needs and executed them perfectly."</p>
+                        <p class="font-bold text-gray-700 mt-4">Mark Johnson</p>
+                        <p class="text-gray-500">Marketing Director, Creative Agency</p>
+                    </div>
+                     <!-- Testimonial 1 -->
+            <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                <p class="text-lg text-gray-600">"Nahid did a fantastic job on our website. His work is top-notch, and he delivered on time. Highly recommend!"</p>
+                <p class="font-bold text-gray-700 mt-4">John Doe</p>
+                <p class="text-gray-500">CEO, Example Company</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                <p class="text-lg text-gray-600">"Amazing work! The website is exactly what we wanted, and the process was seamless from start to finish."</p>
+                <p class="font-bold text-gray-700 mt-4">Jane Smith</p>
+                <p class="text-gray-500">Founder, Tech Solutions</p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                <p class="text-lg text-gray-600">"Great experience working with Nahid! He understood our needs and executed them perfectly."</p>
+                <p class="font-bold text-gray-700 mt-4">Mark Johnson</p>
+                <p class="text-gray-500">Marketing Director, Creative Agency</p>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                <p class="text-lg text-gray-600">"Highly skilled and professional. Nahid was very responsive and delivered exactly what we asked for."</p>
+                <p class="font-bold text-gray-700 mt-4">Sarah Lee</p>
+                <p class="text-gray-500">Product Manager, Retail Co.</p>
+            </div>
+            <!-- Testimonial 5 -->
+            <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                <p class="text-lg text-gray-600">"Excellent communication and attention to detail. The website looks amazing, and the experience was great."</p>
+                <p class="font-bold text-gray-700 mt-4">David Brown</p>
+                <p class="text-gray-500">Creative Director, Design Studio</p>
+            </div>
+            <!-- Testimonial 6 -->
+            <div class="w-full md:w-1/3 bg-white p-6 shadow-lg rounded-md">
+                <p class="text-lg text-gray-600">"Nahid's work is exceptional. The quality and professionalism he brings to the table are unmatched."</p>
+                <p class="font-bold text-gray-700 mt-4">Emma Green</p>
+                <p class="text-gray-500">Owner, Green Solutions</p>
+            </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- FAQ section  -->
+
+
+        <section id="faq" class="bg-gray-100 py-8 ">
+            <div class="container mx-auto text-center mt-25">
+                <h2 class="text-3xl font-bold text-gray-700">Frequently Asked Questions</h2>
+                <p class="text-gray-500 mt-2">Here are some common questions and answers for your convenience.</p>
+                <div class="mt-8">
+                    <div class="space-y-4">
+                        <!-- Question 1 -->
+                        <div class="bg-white shadow-lg rounded-md p-4 text-left">
+                            <h3 class="text-lg font-semibold text-gray-700">What services do you offer?</h3>
+                            <p class="text-gray-600 mt-2">I specialize in frontend development, creating modern and responsive websites that meet clients' needs.</p>
+                        </div>
+                        <!-- Question 2 -->
+                        <div class="bg-white shadow-lg rounded-md p-4 text-left">
+                            <h3 class="text-lg font-semibold text-gray-700">How can I contact you?</h3>
+                            <p class="text-gray-600 mt-2">You can contact me via the form in the "Contact Me" section or email me directly at example@example.com.</p>
+                        </div>
+                        <!-- Question 3 -->
+                        <div class="bg-white shadow-lg rounded-md p-4 text-left">
+                            <h3 class="text-lg font-semibold text-gray-700">What is your pricing structure?</h3>
+                            <p class="text-gray-600 mt-2">Pricing varies depending on the project scope and requirements. Contact me to discuss your project in detail.</p>
+                        </div>
+                        <!-- Question 4 -->
+                        <div class="bg-white shadow-lg rounded-md p-4 text-left">
+                            <h3 class="text-lg font-semibold text-gray-700">Do you offer ongoing support?</h3>
+                            <p class="text-gray-600 mt-2">Yes, I offer ongoing maintenance and support packages to ensure your website runs smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+
+
+    </main>
+
+
+</body>
+</html>

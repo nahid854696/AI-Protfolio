@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    padding: 0;
+}
+body{
+    background-color: #c4e5f5;
+}
+.nav-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: #0EA5E9; /* Tailwind Sky Blue */
+    transition: left 0.3s ease-in-out;
+}
+
+.nav-item:hover::before {
+    left: 0;
+}
+#contact{
+    background-color: #c4e5f5;
+}
+#services{
+    background-color: #c4e5f5;
+}
+#testimonials {
+    background-color: #c4e5f5;
+}
+#faq{
+    background-color: #c4e5f5;
+}
